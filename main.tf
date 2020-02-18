@@ -67,7 +67,7 @@ resource "ibm_is_instance" "instance2" {
 
 resource "ibm_is_floating_ip" "floatingip1" {
   name = "fip1"
-  target = "${ibm_is_instance.instance1.primary_network_interface.0.id}"
+  target = "${ibm_is_instance.server01.primary_network_interface.0.id}"
 }
 
 resource "ibm_is_floating_ip" "floatingip2" {
