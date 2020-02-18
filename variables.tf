@@ -4,7 +4,7 @@ variable "ibmcloud_region" {
 }
 
 variable "vpc_name" {
-  default = "vpc-fs2020-lab"
+  default = "vpc-lab-clone"
   description = "Name of your VPC"
 }
 
@@ -29,7 +29,7 @@ variable "zone2_cidr" {
 }
 
 variable "ssh_public_key" {
-  default = ""
+  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCvVuAMiQUXpVWpBTc7eXYa4B/P1UZ0U7ozUclbbI5jAcmXQQKbcs+HO8jV9bUsVERvDzLT1nEAvP9eDARdF9fDEAYrRdBgT7lPGFt4W0vSaE0VE3XjvGuds7AdU8EhYqiwC369Jpcmby7G0PdBSm2PqAiSEdP3FsmG8M1vjun0wPyMw5t8ECMnQS2gjUe+CN7Q+UIcZpD8WspVfXzQRYw2KtMlys0L9XGq9t7SjYZceCXh+p4X2W7mlfrd87mKOPcok0zJWuI8aR0NbYUbvCELaSsjnh6Y0LBGeGYjosSBibIzHoajjS5tMbN7wXBKzP47IfsFNHFVJTTX8HCAgatLJhN229u5sT1ZnsAN5JyJKItRNffGNpf3W90K1KfIWn93b+MvrIwdtBUybW9qXV3lbHv4jcsnKfIZnqGEf1JUvIVw7IXVWP59tKvPbkldffKlmqVf+Q55cVT2mMYGvdZMIk/renPXwS1H2/LWytx6vLfZMbhbigr2cWVU5ORIeDpenzZ4GBXL70LjkAn/o+5XDCYNDbvXtP5vgjizyic+bbKeURSLrR4MhjTI8Jz4U7XlpoTKqWoWtht+YWeTsZo2j57Z7TpY6xRw5N1PyKQYe0achIJGXTdx9+ZabI7+J7nWYkuTl1I4kyxyFVbzQb67nriwah02Rqebj/VxDtlIBw== kyrell@K-MBPr15.local"
   description = "SSH Public Key contents to be used"
 }
 
